@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Funnel Sans", serif;
+}
+
+ 
+.active{
+    border-bottom: 1px solid #fff;
+}
+
+.bg-primary, .btn-primary {
+    background-color: rgb(66, 62, 55) !important;
+}
+.bg-light, .btn-light {
+    background-color: #edebd7 !important;
+}
+footer ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+.carousel-caption{
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.font-creanova{
+    color: #e3b23c;
+}
+
+.text-creanova{
+    text-align: center !important;
+}
+@media screen and (max-width:425px) {
+    .aboutus-text{
+       padding: 10px;
+       text-align: justify;
+       /* font-size: 0.5rem; */
+    }
+    .aboutus-text br{
+        display: none;
+    }
+ }
+@media screen and (max-width:768px) {
+    .aboutus-text{
+       padding: 10px;
+       text-align: justify;
+       /* font-size: 0.5rem; */
+    }
+    .aboutus-text br{
+        display: none;
+    }
+ }
+.lh-lg{
+    line-height: 2;
+}
+
+.user-input {
+    border: none;
+    background-color: transparent;
+    border-radius: 0;
+    border-bottom: 1px solid #49281a;
+    width: 500px;
+    box-shadow: none;
+}
+
+
+.user-input:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border-bottom: 1px solid #49281a; 
+}
+
+
+textarea {
+    resize: none;
+    height: 40px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #e3b23c;
+}
+
+footer i{
+    font-size: 24px;
+}
