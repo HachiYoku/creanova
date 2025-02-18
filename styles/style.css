@@ -40,6 +40,13 @@ footer ul {
     .aboutus-text br{
         display: none;
     }
+    .contact-btn{
+        margin-bottom: 10px;
+        align-items: center;
+    }
+    .info-box{
+        margin: 10px;
+    }
  }
 @media screen and (max-width:768px) {
     .aboutus-text{
@@ -49,6 +56,9 @@ footer ul {
     }
     .aboutus-text br{
         display: none;
+    }
+    .contact-btn{
+        margin-bottom: 10px;
     }
  }
 .lh-lg{
